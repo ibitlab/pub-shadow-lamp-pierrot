@@ -91,8 +91,12 @@ assembly are described in the
 
 - A 1 W LED on a 20 mm "star" board with a wide beam (120° or more, no lens).
   The smaller the die, the sharper the shadow.
-- Power, for example from USB 5 V through a resistor of about 10 Ω
-  (0.5–1 W), with two thin wires.
+- Power: this lamp runs the LED straight off a CR2032 coin cell, no
+  resistor; the cell's own internal resistance limits the current. From
+  USB 5 V instead, put a resistor of about 10 Ω (0.5–1 W) in series. Two
+  thin wires either way.
+
+![A 1 W LED on a 20 mm star board, still in its bag](docs/photos/led-star.jpg)
 
 ## Repository layout
 
