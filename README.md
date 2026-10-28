@@ -21,8 +21,9 @@ character too.
 
 - A box of about **20.5 × 18 cm**, about **9 cm** tall with the lid.
 - A light picture on the table of roughly **45 × 50 cm**.
-- Prints without slicer supports: where supports are needed they are already
-  part of the model and are snapped off afterwards.
+- The lamp in the photos was printed with the slicer's own supports. v003
+  also builds supports into the model itself, but that wall has not been
+  printed yet.
 
 | Assembled lamp, top view | Intended picture | Shadow computed from the finished wall |
 |---|---|---|
@@ -52,14 +53,15 @@ What to print from `out/`:
 
 | File | Part | Filament |
 |---|---|---|
-| `pierrot_shell_print.stl` | Wall with slots, including built-in supports | Matte black PLA, **opaque**; turn slicer supports off |
+| `pierrot_shell.stl` | Wall with slots, the one in the photos (same wall as v002) | Matte black PLA, **opaque**; slicer supports on |
+| `pierrot_shell_print.stl` | The same wall with built-in supports, **not printed yet** | Same PLA; slicer supports off |
 | `pierrot_ceiling.stl` | Ceiling with the LED socket | Same dark PLA |
 | `pierrot_lid_2color.3mf` | Face lid in two colours (AMS / MMU) | White + black |
 | `pierrot_lid.stl` | Single-colour lid for a single-colour printer | White; paint the black parts afterwards |
 | `pierrot_pins.stl` | Three pins that hold the lid | Any |
 
-After printing, the supports are snapped out of the wall with tweezers — you
-end up with quite a pile:
+After printing, the slicer's supports are picked out of the wall with
+tweezers — you end up with quite a pile:
 
 ![The printed wall and the supports snapped out of it](docs/photos/wall-printed.jpg)
 
@@ -108,7 +110,7 @@ one is always the one to work with.
 |---|---|
 | [`v001-initial`](versions/v001-initial/README.md) | First lamp: LED on a post, 15 cm above the table |
 | [`v002-low-outline`](versions/v002-low-outline/README.md) | Half the height, an even lid outline, a two-colour lid |
-| [`v003-print-support`](versions/v003-print-support/README.md) | **Current**: built-in supports for the wall and an overhang check |
+| [`v003-print-support`](versions/v003-print-support/README.md) | **Current**: built-in supports for the wall (not printed yet) and an overhang check |
 
 Inside a version:
 
