@@ -1,0 +1,6 @@
+out/
+.venv/
+__pycache__/
+.openscad-loop.json
+temp
+.DS_Store
